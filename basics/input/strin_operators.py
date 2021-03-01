@@ -1,0 +1,8 @@
+print("Please enter the ammount of lives")
+lives=str(input())
+print("Please enter the energy level")
+energy=int(input())
+print("Please enter the shield level")
+shield=int(input())
+print("Health has been set")
+print("Number of life is {:&#10084}".format(lives))
