@@ -1,0 +1,11 @@
+print( "What is your name human?")
+name = input()
+print( "How old are you (in years)?")
+age = int(input())
+print("How tall are You (in meters)?")
+height=float(input())
+print("How much You weight (in kilograms?")
+weight=float(input())
+bminumberB=float
+bminumber=weight/(height**2)
+print("{} You are {} years old and you BMI is {:.2f} ".format(name,age,bminumber))
