@@ -1,5 +1,5 @@
 print("Please enter the ammount of lives")
-lives=str(input())
+lives=int(input())
 print("Please enter the energy level")
 energy=int(input())
 print("Please enter the shield level")
