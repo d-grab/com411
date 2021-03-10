@@ -1,3 +1,4 @@
+#Define functions
 def display_box(word):
   num_dashes = 4 + len(word)
   print("-" * num_dashes)
@@ -35,17 +36,18 @@ def run () :
 
 
   while (response != 6):
-        
+      #define menu
+
     print("What would you like to do with this word?")
-    print("[1] Display in a box")
-    print("[2] Display lower-case")
-    print("[3] Display upper-case")
-    print("[4] Display mirrored")
-    print("[5] Display repeated")
-    print("[6] Quit")
+    print(" -1 Display in a box")
+    print(" -2 Display lower-case")
+    print(" -3 Display upper-case")
+    print(" -4 Display mirrored")
+    print(" -5 Display repeated")
+    print(" -6 Quit")
     response=int (input())
 
-         # determine and execute action
+         # determine action for the menu
     if (response == 1):
           display_box(word)
     elif (response == 2):
