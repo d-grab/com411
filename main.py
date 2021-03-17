@@ -5,10 +5,10 @@ def display_box(word):
   print("-" * num_dashes)
 
 def lower_case (word) :
-  print(word.lower())
+  return word.lower()
 
 def upper_case (word) :
-  print(word.upper())
+  return word.upper() + word
 
 def display_mirror (word):
     phrase= ""
